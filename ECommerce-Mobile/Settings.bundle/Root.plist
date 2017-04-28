@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Title</key>
+	<string>Acme Bookstore Settings</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Bookstore</string>
+		</dict>
+		<dict>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>KeyboardType</key>
+			<string>URL</string>
+			<key>DefaultValue</key>
+			<string>http://ec2-54-203-78-38.us-west-2.compute.amazonaws.com/appdynamicspilot/</string>
+			<key>Type</key>
+			<string>URL</string>
+			<key>Title</key>
+			<string>Bookstore URL</string>
+			<key>Key</key>
+			<string>url</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>User Information</string>
+		</dict>
+		<dict>
+			<key>AutocorrectionType</key>
+			<string>Default</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Username</string>
+			<key>Key</key>
+			<string>username</string>
+			<key>DefaultValue</key>
+			<string>test</string>
+		</dict>
+		<dict>
+			<key>IsSecure</key>
+			<true/>
+			<key>AutocorrectionType</key>
+			<string>Default</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Password</string>
+			<key>Key</key>
+			<string>password</string>
+			<key>DefaultValue</key>
+			<string>appdynamics</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>EUM Configuration</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Collector URL</string>
+			<key>Key</key>
+			<string>collectorUrl</string>
+			<key>DefaultValue</key>
+			<string>http://54.244.95.83:9001</string>
+			<key>KeyboardType</key>
+			<string>URL</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>EUM Application Key</string>
+			<key>Key</key>
+			<string>appKey</string>
+			<key>DefaultValue</key>
+			<string>DEMO-AAB-AUU</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>

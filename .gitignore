@@ -1,0 +1,7 @@
+.DS_Store
+ECommerce-Mobile/ADEUMInstrumentation.framework/
+DerivedData/
+build/
+ECommerce-Mobile.xcworkspace/xcuserdata
+ECommerce-Mobile.xcworkspace/xcshareddata
+Pods/
